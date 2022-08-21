@@ -24,14 +24,14 @@ ul {
     gap: 16px;
 }
 
-a:link, a:visited {
+.top-links:link, .top-links:visited {
     color: white;
     text-decoration: none;
     display: flex;
     justify-items: right;
 }
 
-a:hover, a:active {
+.top-links:hover, .top-links:active {
     color: rgb(203, 166, 136);
 }
 
@@ -85,10 +85,23 @@ a:hover, a:active {
     max-width: 200px;
 }
 
+.middle-links:link, .middle-links:visited {
+    color: rgb(144 163 167);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    align-self: center;
+}
+
+.middle-links:hover, .middle-links:active {
+    color:rgb(203, 166, 136)
+}
+
 .text {
     color: #23303D;
     text-align: center;
 }
+
 
 .images {
     width: 250px;
@@ -127,6 +140,8 @@ a:hover, a:active {
     margin: 48px; 
     padding-left: 42px;
     padding-right: 64px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 20px;
     gap: 64px;
 }
